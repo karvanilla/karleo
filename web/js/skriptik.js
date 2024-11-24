@@ -1,4 +1,4 @@
-import { meals, loadDishes } from "./Users/karvanilla/Desktop/exam/web/js/dish.js";
+import { meals, loadDishes } from "./dish.js";
 
 let order = {
   soup: null,
