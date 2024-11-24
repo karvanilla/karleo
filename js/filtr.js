@@ -68,9 +68,9 @@ document.addEventListener("DOMContentLoaded", function () {
     notification.style.left = "50%";
     notification.style.transform = "translate(-50%, -50%)";
     notification.style.padding = "20px";
-    notification.style.backgroundColor = "#f8d7da";
-    notification.style.color = "#721c24";
-    notification.style.border = "1px solid #f5c6cb";
+    notification.style.backgroundColor = "#f6d9d9";
+    notification.style.color = "#f6d9d9";
+    notification.style.border = "1px solid rgb(238, 116, 116)";
     notification.style.borderRadius = "10px";
     notification.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
     notification.style.zIndex = "1000";
@@ -84,20 +84,20 @@ document.addEventListener("DOMContentLoaded", function () {
     button.textContent = "Окей";
     button.style.marginTop = "10px";
     button.style.padding = "10px 20px";
-    button.style.backgroundColor = "#f5c6cb";
-    button.style.color = "#721c24";
+    button.style.backgroundColor = "#f6d9d9";
+    button.style.color = "rgb(238, 116, 116)";
     button.style.border = "none";
     button.style.borderRadius = "5px";
     button.style.cursor = "pointer";
     button.style.transition = "background-color 0.3s, color 0.3s";
 
     button.addEventListener("mouseover", () => {
-      button.style.backgroundColor = "#721c24";
-      button.style.color = "#fff";
+      button.style.backgroundColor = "rgb(238, 116, 116)";
+      button.style.color = "#f6d9d9";
     });
     button.addEventListener("mouseout", () => {
-      button.style.backgroundColor = "#f5c6cb";
-      button.style.color = "#721c24";
+      button.style.backgroundColor = "#f6d9d9";
+      button.style.color = "rgb(238, 116, 116)";
     });
 
     button.addEventListener("click", () => {
