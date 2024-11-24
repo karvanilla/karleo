@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     notification.style.transform = "translate(-50%, -50%)";
     notification.style.padding = "20px";
     notification.style.backgroundColor = "#f6d9d9";
-    notification.style.color = "#f6d9d9";
+    notification.style.color = "rgb(238, 116, 116)";
     notification.style.border = "1px solid rgb(238, 116, 116)";
     notification.style.borderRadius = "10px";
     notification.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
