@@ -1,4 +1,4 @@
-import { order } from "./js/skriptik.js";
+import { order } from "./skriptik.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("form");
