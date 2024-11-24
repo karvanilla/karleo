@@ -14,7 +14,7 @@
   transition: border 0.3s, background-color 0.3s;
 }
 .meal-item img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 35px;
 }
