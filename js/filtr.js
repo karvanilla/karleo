@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function displayNotification(message) {
-    const existingNotification = document.querySelector(".filtr");
+    const existingNotification = document.querySelector(".notification");
     if (existingNotification) existingNotification.remove();
 
     const notification = document.createElement("div");
