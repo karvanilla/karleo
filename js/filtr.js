@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     button.addEventListener("mouseover", () => {
       button.style.backgroundColor = "rgb(238, 116, 116)";
-      button.style.color = "#f6d9d9";
+      button.style.color = "rgb(238, 116, 116)";
     });
     button.addEventListener("mouseout", () => {
       button.style.backgroundColor = "#f6d9d9";
