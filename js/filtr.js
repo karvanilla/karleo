@@ -1,4 +1,4 @@
-import { order } from "./Users/karvanilla/Desktop/exam/web/js/skriptik.js";
+import { order } from "./js/skriptik.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("form");
