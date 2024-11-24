@@ -1,6 +1,6 @@
 .meals-grid {
   display: grid;
-  gap: 10px;
+  gap: 5px;
 }
 .meal-item {
   background-color: white;
